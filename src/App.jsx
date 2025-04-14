@@ -47,12 +47,11 @@ const App = () => {
   );
 
   return (
-    <div style={{ display: "flex", minHeight: "100vh", fontFamily: "sans-serif" }}>
-      <div style={{ width: "300px", padding: "20px", background: "#f4f4f4" }}>
+    <div style={{ display: "flex", minHeight: "100vh", fontFamily: "Segoe UI, sans-serif", backgroundColor: "#f1f1f1"}}>
+      <div style={{ width: "300px", padding: "30px", background: "#fff", boxShadow: "2px 0 5px rgba(0,0,0,0.05)"}}>
         <ExpenseForm formData={formData} onChange={handleChange} onSubmit={handleSubmit} />
       </div>
-
-      <div style={{ flex: 1, padding: "20px" }}>
+      <div style={{ flex: 1, padding: "40px" }}>
         <h1>Expense Tracker</h1>
         <p>Start keeping control of your finances with this. Record, categorize and analyze your spending.</p>
         <SearchBar value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />

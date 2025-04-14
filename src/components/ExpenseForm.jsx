@@ -42,9 +42,19 @@ const ExpenseForm = ({ formData, onChange, onSubmit }) => {
         onChange={onChange}
         required
       />
-      <button type="submit" style={{ background: "black", color: "white", padding: "10px", border: "none" }}>
-        Submit
-      </button>
+      <button
+  type="submit"
+  style={{
+    background: "black",
+    color: "white",
+    padding: "10px",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer"
+  }}
+>
+  Submit
+</button>
     </form>
   );
 };

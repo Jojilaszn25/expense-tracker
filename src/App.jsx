@@ -6,15 +6,15 @@ import SearchBar from "./components/SearchBar";
 const App = () => {
   const [expenses, setExpenses] = useState([
     {
-      description: "Light Mukumu",
-      notes: "Wednesday’s Lunch",
-      category: "food",
-      amount: 100,
+      description: "Stadium",
+      notes: "Tickets",
+      category: "facilities",
+      amount: 1500,
       date: "2025-04-08",
     },
     {
       description: "NYC Sewers",
-      notes: "power tokens",
+      notes: "Power tokens",
       category: "utilities",
       amount: 2000,
       date: "2025-04-05",

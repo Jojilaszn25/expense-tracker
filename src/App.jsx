@@ -53,7 +53,6 @@ const App = () => {
       </div>
       <div style={{ flex: 1, padding: "40px" }}>
         <h1>Expense Tracker</h1>
-        <p>Start keeping control of your finances with this. Record, categorize and analyze your spending.</p>
         <SearchBar value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
         <ExpenseTable expenses={filteredExpenses} />
       </div>

@@ -13,10 +13,10 @@ const App = () => {
       date: "2025-04-08",
     },
     {
-      description: "NYC Sewers",
-      notes: "Power tokens",
-      category: "utilities",
-      amount: 2000,
+      description: "Qatar Airways",
+      notes: "Plane Tickets",
+      category: "services",
+      amount: 3050,
       date: "2025-04-05",
     },
   ]);
